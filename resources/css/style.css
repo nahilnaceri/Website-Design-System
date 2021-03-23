@@ -65,7 +65,11 @@ footer {
 footer p {
   text-transform: uppercase;
   font-weight: bold;
+  color: rgb(120, 120, 120);
   font-family: "Rubik", sans-serif;
+}
+main {
+  height: 1000px;
 }
 
 /*
@@ -78,7 +82,7 @@ footer p {
   margin: 70px auto;
   overflow: auto;
 }
-#colors h1 {
+h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -220,3 +224,64 @@ footer p {
   opacity: 0;
   background-color: rgba(100, 100, 100, 0.5);
 }
+
+/*
+    Fonts page
+*/
+#fonts {
+  width: 80%;
+  height: 100%;
+  margin: 70px auto;
+  overflow: auto;
+}
+.fonts-container .font-card:not(:last-child) {
+  margin-right: 20px;
+}
+.font-card {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  color: rgb(150, 150, 150);
+  /* overflow: auto; */
+  float: left;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 1px 1px rgba(200, 200, 200, 0.3);
+}
+.font-card h3 {
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+.quote {
+  font-family: "Roboto", sans-serif;
+}
+p.font-styles {
+  font-size: 24px;
+  margin: 20px;
+  line-height: 1.5;
+  color: #000;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.cormorant {
+  font-family: "Cormorant Unicase", serif;
+}
+.sourceCode {
+  font-family: "Source Code Pro", monospace;
+}
+.normal {
+  font-weight: 400;
+}
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+.bold {
+  font-weight: 700;
+}
+/* .clearfix {
+  clear: left;
+} */
