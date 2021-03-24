@@ -136,7 +136,8 @@ main h1 {
   overflow: auto;
 }
 #colors h1,
-#fonts h1 {
+#fonts h1,
+#heading h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
